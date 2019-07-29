@@ -1,3 +1,4 @@
+import { SyntaxNode, Tree } from "tree-sitter";
 import {
   CompletionItem,
   CompletionItemKind,
@@ -6,7 +7,6 @@ import {
   InsertTextFormat,
   MarkupKind,
 } from "vscode-languageserver";
-import { SyntaxNode, Tree } from "web-tree-sitter";
 import { IForest } from "../forest";
 import { IImports } from "../imports";
 import { getEmptyTypes } from "../util/elmUtils";

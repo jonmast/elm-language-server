@@ -1,3 +1,4 @@
+import { SyntaxNode, Tree } from "tree-sitter";
 import {
   CodeLens,
   CodeLensParams,
@@ -7,7 +8,7 @@ import {
   Position,
   Range,
 } from "vscode-languageserver";
-import { SyntaxNode, Tree } from "web-tree-sitter";
+import { URI } from "vscode-uri";
 import { IForest } from "../forest";
 import { IImports } from "../imports";
 import { References } from "../util/references";

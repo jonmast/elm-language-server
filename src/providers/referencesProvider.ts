@@ -1,3 +1,4 @@
+import { SyntaxNode, Tree } from "tree-sitter";
 import {
   IConnection,
   Location,
@@ -5,7 +6,6 @@ import {
   Range,
   ReferenceParams,
 } from "vscode-languageserver";
-import { SyntaxNode, Tree } from "web-tree-sitter";
 import { IForest } from "../forest";
 import { IImports } from "../imports";
 import { References } from "../util/references";
